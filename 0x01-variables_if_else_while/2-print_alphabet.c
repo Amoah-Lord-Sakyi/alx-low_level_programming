@@ -5,14 +5,16 @@
  * Return: 0 if no error, non zero if error
  */
 int main(void)
-{  char i;
-  
-for (i =  'a'; ,  i <=  'z',  i++);
 {
-putchar(char *i);
-}
+char i;
+char c;
+i = 'a';
+while
+(i <=  'z')
 {
-putchar("\n");
+putchar(i);
+c++;
 }
+putchar('\n');
 return (0);
 }
