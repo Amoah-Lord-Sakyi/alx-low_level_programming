@@ -12,8 +12,8 @@ while
 (a >=  'a')
 {
 putchar(a);
-a--; 
+a--;
 }
 putchar('\n');
-return (0); 
+return (0);
 }
