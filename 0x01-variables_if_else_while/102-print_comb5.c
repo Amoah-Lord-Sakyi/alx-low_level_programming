@@ -19,7 +19,7 @@ putchar((x / 10) + '0');
 putchar((x % 10) + '0');
 putchar(' ');
 putchar((c / 10) + '0');
- putchar((c % 10) + '0');
+putchar((c % 10) + '0');
 if (x == 98 && c == 99)
 continue;
 putchar(',');
