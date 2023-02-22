@@ -7,10 +7,10 @@ int main(void)
 {
 int x, sum = 0;
 for (x = 0; x < 1024; x++)
-if ((x % 3) == 0 || (x % 5) == 0)
+if ((x % 5) == 0 || (x % 3) == 0)
 sum += 1;
 {
-printf("sum\n");
+printf("%d\n", sum);
 }
 return (0);
 }
