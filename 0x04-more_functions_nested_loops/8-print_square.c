@@ -13,10 +13,11 @@ _putchar('\n');
 else
 {
 int m, n;
-for (m = 0; m <= size; m++)
+for (m = 0; m < size; m++)
 {
-for (n = 0; n <= size; n++)
+for (n = 0; n < size; n++)
 {
+if (m != n)
 _putchar('#');
 }
 _putchar('\n');
