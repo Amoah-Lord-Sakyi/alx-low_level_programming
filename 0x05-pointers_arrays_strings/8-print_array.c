@@ -13,9 +13,9 @@ int i = 0;
 while (i < n)
 i++;
 {
-prinf("%d", a[i]);
-if (i < n - 1)
+printf("%d", a[n]);
+if (i < n -1)
 printf(", ");
 }
-printf('\n');
+printf("\n");
 }
