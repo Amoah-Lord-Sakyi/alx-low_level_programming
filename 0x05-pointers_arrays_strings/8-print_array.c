@@ -8,14 +8,20 @@
 */
 void print_array(int *a, int n)
 {
+if (a)
+{
 int i = 0;
 
 while (i < n)
-i++;
 {
-printf("%d", a[n]);
-if (i < n -1)
-printf(", ");
+printf("%d", a[i]);
+if (i <= (n - 1))
+{
+printf(",");
+printf(" ");
+}
+i++;
+}
 }
 printf("\n");
 }
